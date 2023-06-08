@@ -1,121 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:ital,wght@0,400;0,500;0,700;1,100&display=swap" rel="stylesheet">
-</head>
-<body class="body">
-  <!--hat-->
-  <header class="header">
-    <div class="port-divhead container">
-      <nav class="nav-header">
-      <a href="./index.html" class="logo-link link">Web<span class="logo-linktwo">Studio</span></a>
-        <ul class="ul-header list">
-          <li class="li-header"><a href="./index.html" class="li-headera link">Studio</a></li>
-          <li class="li-header"><a href="./portfolio.html" class="li-headera link linea">Portfolio</a></li>
-          <li class="li-header"><a href="" class="li-headera link">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="adresa">
-        <ul class="ul-adresa list">
-          <li class="li-header">
-            <a href="mailto:info@devstudio.com" class="gmail link">info@devstudio.com</a>
-          </li>
-          <li class="li-header">
-            <a href="tel:+110001111111" class="gmail link">+11(000)111-11-11</a>
-          </li>
-        </ul>
-      </address>
-    </div>
+    <title>Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/modern-normalize-min.css" />
+    <link rel="stylesheet" href="CSS/style.css" />  
+    
+  </head>
+  <body>
+    <header>
+      <div class="top-line">
+        <nav class="top-line-bcg container">
+          <a class="logo" href="index.html"><span>Web</span><span class="studio-black">Studio</span></a>
+          <ul class="header-nav container">
+            <li>
+              <a class="navbar-button" href="index.html">Agencja</a>
+            </li>
+            <li>
+              <a class="navbar-button portfolio" href="portfolio.html">Portfolio</a>
+            </li>
+            <li>
+              <a class="navbar-button" href="#">Kontakty</a>
+            </li>
+          </ul>
+
+          <div class="header-contact-group">  
+            <div class="header-contact">
+                <a class="header-contact-link" href="mailto:info@devstudio.com">
+                <svg class="icon-envelope" width="16px" height="12px"><use href="./images/icons.svg#icon-envelope"></use></svg>info@devstudio.com</a>
+              </div>
+
+              <div class="icon-smartphone">
+                <a class="header-contact-link" href="tel:+48111111111">
+                <svg class="icon" width="10px" height="16px"><use href="./images/icons.svg#icon-smartphone"></use></svg> +48 111 111 111</a>   
+              </div>
+          </div>
+        </nav>
+      </div>
     </header>
-     <!--Main-->
-     <main class="port-main">
-      <section class="port-section">
-        <div class="port-divsec container">
-      <h1 class="link" hidden>Features</h1>
-        <ul class="port-mainul list">
-            <li><button type="button" class="button-linkp">All</button></li>
-            <li><button type="button" class="button-linkp">Web Site</button></li>
-            <li><button type="button" class="button-linkp">App</button></li>
-            <li><button type="button" class="button-linkp">Design</button></li>
-            <li><button type="button" class="button-linkp">Marketing</button></li>
+    <main class="section">
+      <div>
+        <ul class="filter-menu container">
+          <li>
+            <button class="filter-button all-button" type="button">Wszystkie</button>
+          </li>
+          <li>
+            <button class="filter-button sites-button" type="button">Strony</button>
+          </li>
+          <li>
+            <button class="filter-button applications-button" type="button">Aplikacje</button>
+          </li>
+          <li>
+            <button class="filter-button design-button" type="button">Dizajn</button>
+          </li>
+          <li>
+            <button class="filter-button marketing-button" type="button">Marketing</button>
+          </li>
         </ul>
-     
-    
-     <ul class="port-sectionul list">
-     <li class="port-sectionli link">
-      <a class="portw link" href=""><div class="portw-divimg"><img src="./images/imagesportfolio/a1.jpg" alt="photo BankApp" width="360" height="300" class="img"><p class="div-anim-p">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App ·
-        Exotic Fruit Ecommerce App · Cloud Storage App</p></div><div class="a-div"><h2 class="title">Banking App Interface Concept</h2><p class="titlep">App</p></div>
-    </a></li>
-     <li class="port-sectionli link">
-      <a class="portw link" href=""><div class="portw-divimg"><img src="./images/imagesportfolio/a2.jpg" alt="photo QR-Cod" width="360" height="300" class="img"/><p class="div-anim-p">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App ·
-        Exotic Fruit Ecommerce App · Cloud Storage App</p></div><div class="a-div"><h2 class="title">Cashless Payment</h2><p class="titlep">Marketing</p></div>
-    </a></li>
-     <li class="port-sectionli link">
-      <a class="portw link" href=""><div class="portw-divimg"><img src="./images/imagesportfolio/a3.jpg" alt="photo Electronic" width="360" height="300" class="img"/><p class="div-anim-p">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App ·
-        Exotic Fruit Ecommerce App · Cloud Storage App</p></div><div class="a-div"><h2 class="title">Meditation App</h2><p class="titlep">App</p></div>
-    </a></li>   
-     <li class="port-sectionli link">
-      <a class="portw link" href=""><div class="portw-divimg"><img src="./images/imagesportfolio/f1.jpg" alt="photo Drive" width="360" height="300" class="img"/><p class="div-anim-p">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App ·
-        Exotic Fruit Ecommerce App · Cloud Storage App</p></div><div class="a-div"><h2 class="title">Taxi Service</h2><p class="titlep">Marketing</p></div>
-    </a></li>
-     <li class="port-sectionli link">
-      <a class="portw link" href=""><div class="portw-divimg"><img src="./images/imagesportfolio/f2.jpg" alt="photo Phone" width="360" height="300" class="img"/><p class="div-anim-p">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App ·
-        Exotic Fruit Ecommerce App · Cloud Storage App</p></div><div class="a-div"><h2 class="title">Screen Illustrations</h2><p class="titlep">Design</p></div>
-    </a></li>  
-     <li class="port-sectionli link">
-      <a class="portw link" href=""><div class="portw-divimg"><img src="./images/imagesportfolio/f3.jpg" alt="photo Girl" width="360" height="300" class="img"/><p class="div-anim-p">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App ·
-        Exotic Fruit Ecommerce App · Cloud Storage App</p></div><div class="a-div"><h2 class="title">Online Courses</h2><p class="titlep">Marketing</p></div>
-    </a></li>  
-     <li class="port-sectionli link">
-      <a class="portw link" href=""><div class="portw-divimg"><img src="./images/imagesportfolio/g1.jpg" alt="photo lending" width="360" height="300" class="img"/><p class="div-anim-p">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App ·
-        Exotic Fruit Ecommerce App · Cloud Storage App</p></div><div class="a-div"><h2 class="title">Instagram Stories Concept</h2><p class="titlep">Design</p></div>
-    </a></li>  
-     <li class="port-sectionli link">
-      <a class="portw link" href=""><div class="portw-divimg"><img src="./images/imagesportfolio/g2.jpg" alt="photo Organic food" width="360" height="300" class="img"/><p class="div-anim-p">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App ·
-        Exotic Fruit Ecommerce App · Cloud Storage App</p></div><div class="a-div"><h2 class="title">Organic Food</h2><p class="titlep">Web Site</p></div>
-    </a></li>  
-     <li class="port-sectionli link">
-      <a class="portw link" href=""><div class="portw-divimg"><img src="./images/imagesportfolio/g3.jpg" alt="photo Girl" width="360" height="300" class="img"/><p class="div-anim-p">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App ·
-        Exotic Fruit Ecommerce App · Cloud Storage App</p></div><div class="a-div"><h2 class="title">Fresh Coffee</h2><p class="titlep">Web Site</p></div>
-    </a></li>  
+      </div>
+      <ul class="projects container">
+        <li>
+          <figure class="project-card" tabindex="0">
+            <div class="box">
+              <img src="./images/portfolio/technocrack.jpg" width="370" height="294" alt="Strona internetowa wyświetlona na ekranie laptopa"/>
+                <div class="overlay">
+                  <p>Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p></div></div>
+
+            <figcaption class="project-card-caption">
+              <h4>Technocrack</h4>
+              <p>Strona internetowa</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="project-card" tabindex="0">
+            <div class="box">
+              <img src="./images/portfolio/new-orleans-vs-golden-star.jpg" width="370" height="294" alt="Dwóch koszykarzy zmaga się z piłką na dynamicznym tle w kolorze cjanu" />
+                <div class="overlay">
+                  <p>Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p></div></div>
+
+            <figcaption class="project-card-caption">
+              <h4>Grafika New Orlean vs Golden Star</h4>
+              <p>Dizajn</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="project-card" tabindex="0">
+            <div class="box">
+              <img src="./images/portfolio/seafood-restaurant.jpg" width="370" height="294" alt="Logo restauracji z owocami morza z motywem łososia" />
+                <div class="overlay">
+                  <p>Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p></div></div>
+
+            <figcaption class="project-card-caption">
+              <h4>Restauracja Seafood</h4>
+              <p>Aplikacja</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="project-card" tabindex="0">
+            <div class="box">
+              <img src="./images/portfolio/project-prime.jpg" width="370" height="294" alt="Czarne słuchawki typu wokółuszne bezprzewodowe"/>
+                <div class="overlay">
+                  <p>Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p></div></div>
+
+              <figcaption class="project-card-caption">
+                <h4>Projekt Prime</h4>
+                <p>Marketing</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="project-card" tabindex="0">
+            <div class="box">
+              <img src="./images/portfolio/project-boxes.jpg" width="370" height="294" alt="Dwa pudełka w neutralnych kolorach ukazane w rzucie izometrycznym" />
+                <div class="overlay">
+                  <p>Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p></div></div>
+
+              <figcaption class="project-card-caption">
+                <h4>Projekt Boxes</h4>
+                <p>Aplikacja</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="project-card" tabindex="0">
+            <div class="box">
+              <img src="./images/portfolio/inspiration-has-no-borders.jpg" width="370" height="294" alt="Strona internetowa o ciemnejkolorystyce wyświetlona na monitorze komputera stacjonarnego" />
+                <div class="overlay">
+                  <p>Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p></div></div>
+
+              <figcaption class="project-card-caption">
+                <h4>Inspiration has no Borders</h4>
+                <p>Strona internetowa</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="project-card" tabindex="0">
+            <div class="box">
+              <img src="images/portfolio/magazine-limited-edition.jpg" width="370" height="294" alt="Bogato ilustrowany egzemplarz papierowy magazynu otwarty na stronie ze zdjęciami" />
+                <div class="overlay">
+                  <p>Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p></div></div>
+
+            <figcaption class="project-card-caption">
+              <h4>Magazyn Limited Edition</h4>
+              <p>Dizajn</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="project-card" tabindex="0">
+            <div class="box">
+              <img src="images/portfolio/project-lab.jpg" width="370" height="294" alt="Papierowa metka odziezowa ze sznurecznkiem" />
+                <div class="overlay">
+                  <p>Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p></div></div>
+
+              <figcaption class="project-card-caption">
+                <h4>Projekt LAB</h4>
+                <p>Marketing</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure class="project-card" tabindex="0">
+            <div class="box">
+              <img src="images/portfolio/growing-bussiness.jpg" width="370" height="294" alt="Aplikacja internetowa wyświetlona na ekranie laptopa" />
+                <div class="overlay">
+                  <p>Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p></div></div>
+
+            <figcaption class="project-card-caption">
+              <h4>Growing Business</h4>
+              <p>Aplikacja</p>
+            </figcaption>
+          </figure>
+        </li>
       </ul>
-    </div>
-    </section>
     </main>
-    <footer class="footer">
-      <div class="footerdiv container">
-      <div class="div-footer">
-       <a href="./index.html" class="logo-linkthree link">Web<span class="logo-linkfour">Studio</span></a>
-    <p class="footer-p">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
-    </div>
-    <div>
-      <p class="social-media">Social media</p>
-      <ul class="ul-socialf list">
-      <li class="li-socialf"><a class="a-socialf" href=""><svg class="icon-socialf svg" width="24" height="24"><use href="./images/icons.svg#icon-instagram"></use></svg></a></li>
-      <li class="li-socialf"><a class="a-socialf" href=""><svg class="icon-socialf svg" width="24" height="24"><use href="./images/icons.svg#icon-twitter"></use></svg></a></li>
-      <li class="li-socialf"><a class="a-socialf" href=""><svg class="icon-socialf svg" width="24" height="24"><use href="./images/icons.svg#icon-facebook"></use></svg></a></li>
-      <li class="li-socialf"><a class="a-socialf" href=""><svg class="icon-socialf svg" width="24" height="24"><use href="./images/icons.svg#icon-linkedin"></use></svg> </a></li>  
-    </ul>
-    </div>
-    
-    <div>
-      <p class="p-form">Subscribe</p>
-    <form class="foot-form">
-      <label class="foot-label">
-      <input type="email" class="foot-input" name="E-mail" placeholder="E-mail">
-      </label>
-      <button type="subscribe" class="button-form"><p class="p-sub">Subscribe</p><svg class="footer-subscribe-svg"><use href="./images/icons.svg#icon-sub" width="24" height="24"></use></svg></button>
-    </form>
-    </div>
-    </footer>
-  <script src="./js/modal.js"></script>
-</body>
+    <footer class="section footer-bcg">
+      <div class="container">
+				<div class="address-plus-social ">
+					<div class="address-footer">
+							<a class="logo" href="index.html"><span>Web</span><span class="logo studio-white">Studio</span></a>
+							<address><p class="address">m. Warszawa, Aleje Jerozolimskie 21</p></address>
+							<a class="mail-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
+							<a class="tel-footer" href="tel:+48111111111">+48 111 111 111</a>
+					</div>
+					<div class="social-join-us-group">
+							<p class="social-join-us-text">Dołącz do nas</p>
+							<ul class="antisocial-list">
+									<li class="icon-parent" tabindex="0"><div class="icon-div icon-div-footer"><svg><use href="./images/icons.svg#icon-instagram-2" width="20" style="fill:var(--white-text)"></use></svg></div></li>
+									<li class="icon-parent" tabindex="0"><div class="icon-div icon-div-footer"><svg><use href="./images/icons.svg#icon-twitter-1" width="20" style="fill:var(--white-text)"></use></svg></div></li>
+									<li class="icon-parent" tabindex="0"><div class="icon-div icon-div-footer"><svg><use href="./images/icons.svg#icon-facebook-1" width="20" style="fill:var(--white-text)"></use></svg></div></li>
+									<li class="icon-parent" tabindex="0"><div class="icon-div icon-div-footer"><svg><use href="./images/icons.svg#icon-linkedin-1" width="20" style="fill:var(--white-text)"></use></svg></div></li>
+							</ul>
+					</div>
+				</div>
+			</div>
+  </footer>
+  </body>
 </html>
+
