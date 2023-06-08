@@ -1,213 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSTUDIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="CSS/modern-normalize-min.css" />
-    <link rel="stylesheet" href="CSS/style.css" />  
-    
-  </head>
-  <body>
-    <header>
-      <div class="top-line">
-        <nav class="top-line-bcg container">
-          <a class="logo" href="index.html"><span>Web</span><span class="studio-black">Studio</span></a>
-          <ul class="header-nav container">
-            <li>
-              <a class="navbar-button" href="index.html">Agencja</a>
-            </li>
-            <li>
-              <a class="navbar-button portfolio" href="portfolio.html">Portfolio</a>
-            </li>
-            <li>
-              <a class="navbar-button" href="#">Kontakty</a>
-            </li>
-          </ul>
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
 
-          <div class="header-contact-group">  
-            <div class="header-contact">
-                <a class="header-contact-link" href="mailto:info@devstudio.com">
-                <svg class="icon-envelope" width="16px" height="12px"><use href="./images/icons.svg#icon-envelope"></use></svg>info@devstudio.com</a>
-              </div>
 
-              <div class="icon-smartphone">
-                <a class="header-contact-link" href="tel:+48111111111">
-                <svg class="icon" width="10px" height="16px"><use href="./images/icons.svg#icon-smartphone"></use></svg> +48 111 111 111</a>   
-              </div>
-          </div>
-        </nav>
-      </div>
+<body>
+    <header class="page-header">
+        <div class="header-container container">
+            <nav class="page-navigation">
+                <a class="logo link" href="./index.html">Web<span class="studio-span">Studio</span></a>
+                <ul class="menu list">
+                    <li class="menu-item"><a class="menu-link link" href="./index.html">Studio</a></li>
+                    <li class="menu-item"><a class="menu-link link active-page" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="menu-item"><a class="menu-link link" href="#">Contacts</a></li>
+                </ul>
+            </nav>
+            <address class="contacts-header">
+                <ul class="contacts-list list">
+                    <li class="menu-item"><a class="contact-item link"
+                            href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="menu-item"><a class="contact-item link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
     </header>
-    <main class="section">
-      <div>
-        <ul class="filter-menu container">
-          <li>
-            <button class="filter-button all-button" type="button">Wszystkie</button>
-          </li>
-          <li>
-            <button class="filter-button sites-button" type="button">Strony</button>
-          </li>
-          <li>
-            <button class="filter-button applications-button" type="button">Aplikacje</button>
-          </li>
-          <li>
-            <button class="filter-button design-button" type="button">Dizajn</button>
-          </li>
-          <li>
-            <button class="filter-button marketing-button" type="button">Marketing</button>
-          </li>
-        </ul>
-      </div>
-      <ul class="projects container">
-        <li>
-          <figure class="project-card" tabindex="0">
-            <div class="box">
-              <img src="./images/portfolio/technocrack.jpg" width="370" height="294" alt="Strona internetowa wyświetlona na ekranie laptopa"/>
-                <div class="overlay">
-                  <p>Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p></div></div>
 
-            <figcaption class="project-card-caption">
-              <h4>Technocrack</h4>
-              <p>Strona internetowa</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure class="project-card" tabindex="0">
-            <div class="box">
-              <img src="./images/portfolio/new-orleans-vs-golden-star.jpg" width="370" height="294" alt="Dwóch koszykarzy zmaga się z piłką na dynamicznym tle w kolorze cjanu" />
-                <div class="overlay">
-                  <p>Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p></div></div>
-
-            <figcaption class="project-card-caption">
-              <h4>Grafika New Orlean vs Golden Star</h4>
-              <p>Dizajn</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure class="project-card" tabindex="0">
-            <div class="box">
-              <img src="./images/portfolio/seafood-restaurant.jpg" width="370" height="294" alt="Logo restauracji z owocami morza z motywem łososia" />
-                <div class="overlay">
-                  <p>Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p></div></div>
-
-            <figcaption class="project-card-caption">
-              <h4>Restauracja Seafood</h4>
-              <p>Aplikacja</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure class="project-card" tabindex="0">
-            <div class="box">
-              <img src="./images/portfolio/project-prime.jpg" width="370" height="294" alt="Czarne słuchawki typu wokółuszne bezprzewodowe"/>
-                <div class="overlay">
-                  <p>Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p></div></div>
-
-              <figcaption class="project-card-caption">
-                <h4>Projekt Prime</h4>
-                <p>Marketing</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure class="project-card" tabindex="0">
-            <div class="box">
-              <img src="./images/portfolio/project-boxes.jpg" width="370" height="294" alt="Dwa pudełka w neutralnych kolorach ukazane w rzucie izometrycznym" />
-                <div class="overlay">
-                  <p>Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p></div></div>
-
-              <figcaption class="project-card-caption">
-                <h4>Projekt Boxes</h4>
-                <p>Aplikacja</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure class="project-card" tabindex="0">
-            <div class="box">
-              <img src="./images/portfolio/inspiration-has-no-borders.jpg" width="370" height="294" alt="Strona internetowa o ciemnejkolorystyce wyświetlona na monitorze komputera stacjonarnego" />
-                <div class="overlay">
-                  <p>Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p></div></div>
-
-              <figcaption class="project-card-caption">
-                <h4>Inspiration has no Borders</h4>
-                <p>Strona internetowa</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure class="project-card" tabindex="0">
-            <div class="box">
-              <img src="images/portfolio/magazine-limited-edition.jpg" width="370" height="294" alt="Bogato ilustrowany egzemplarz papierowy magazynu otwarty na stronie ze zdjęciami" />
-                <div class="overlay">
-                  <p>Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p></div></div>
-
-            <figcaption class="project-card-caption">
-              <h4>Magazyn Limited Edition</h4>
-              <p>Dizajn</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure class="project-card" tabindex="0">
-            <div class="box">
-              <img src="images/portfolio/project-lab.jpg" width="370" height="294" alt="Papierowa metka odziezowa ze sznurecznkiem" />
-                <div class="overlay">
-                  <p>Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p></div></div>
-
-              <figcaption class="project-card-caption">
-                <h4>Projekt LAB</h4>
-                <p>Marketing</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure class="project-card" tabindex="0">
-            <div class="box">
-              <img src="images/portfolio/growing-bussiness.jpg" width="370" height="294" alt="Aplikacja internetowa wyświetlona na ekranie laptopa" />
-                <div class="overlay">
-                  <p>Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p></div></div>
-
-            <figcaption class="project-card-caption">
-              <h4>Growing Business</h4>
-              <p>Aplikacja</p>
-            </figcaption>
-          </figure>
-        </li>
-      </ul>
+    <main>
+        <section class="main-portfolio-section">
+            <div class="container">
+                <h1 class="visually-hidden">WEBSTUDIO PORTFOLIO</h1>
+                <!-- buttons -->
+                <ul class="button-list-portfolio list">
+                    <li class="button-item">
+                        <button class="button-portfolio" type="button">All</button>
+                    </li>
+                    <li class="button-item">
+                        <button class="button-portfolio" type="button">Web Site</button>
+                    </li>
+                    <li class="button-item">
+                        <button class="button-portfolio" type="button">App</button>
+                    </li>
+                    <li class="button-item">
+                        <button class="button-portfolio" type="button">Design</button>
+                    </li>
+                    <li class="button-item">
+                        <button class="button-portfolio" type="button">Marketing</button>
+                    </li>
+                </ul>
+                <!-- cards -->
+                <ul class="card-portfolio-list list">
+                    <li class="card-portfolio-list-item">
+                        <a class="link portfolio-link" href="#">
+                            <div class="img-plus-overlay">
+                                <img class="card-portfolio-img" src="./images/portfolio/banking-app.jpg"
+                                    alt="banking application interface" width="360" height="300" />
+                                <p class="overlay-portfolio">14 Stylish and User-Friendly App Design Concepts · Task
+                                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
+                                </p>
+                            </div>
+                            <div class="container-for-podpis-portfolio">
+                                <h2 class="card-title">Banking App Interface Concept</h2>
+                                <p class="card-description">App</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="card-portfolio-list-item">
+                        <a class="link portfolio-link" href="#">
+                            <div class="img-plus-overlay">
+                                <img class="card-portfolio-img" src="./images/portfolio/cashless-payment.jpg"
+                                    alt="Mobile phone with qr code" width="360" height="300" />
+                                <p class="overlay-portfolio">14 Stylish and User-Friendly App Design Concepts · Task
+                                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
+                                </p>
+                            </div>
+                            <div class="container-for-podpis-portfolio">
+                                <h2 class="card-title">Cashless Payment</h2>
+                                <p class="card-description">Marketing</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="card-portfolio-list-item">
+                        <a class="link portfolio-link" href="#">
+                            <div class="img-plus-overlay">
+                                <img class="card-portfolio-img" src="./images/portfolio/meditation-app.jpg"
+                                    alt="laptop and phone" width="360" height="300" />
+                                <p class="overlay-portfolio">14 Stylish and User-Friendly App Design Concepts · Task
+                                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
+                                </p>
+                            </div>
+                            <div class="container-for-podpis-portfolio">
+                                <h2 class="card-title">Meditation App</h2>
+                                <p class="card-description">App</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="card-portfolio-list-item">
+                        <a class="link portfolio-link" href="#">
+                            <div class="img-plus-overlay">
+                                <img class="card-portfolio-img" src="./images/portfolio/taxi-service.jpg"
+                                    alt="car interior" width="360" height="300" />
+                                <p class="overlay-portfolio">14 Stylish and User-Friendly App Design Concepts · Task
+                                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
+                                </p>
+                            </div>
+                            <div class="container-for-podpis-portfolio">
+                                <h2 class="card-title">Taxi Service</h2>
+                                <p class="card-description">Marketing</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="card-portfolio-list-item">
+                        <a class="link portfolio-link" href="#">
+                            <div class="img-plus-overlay">
+                                <img class="card-portfolio-img" src="./images/portfolio/screen-illustration.jpg"
+                                    alt="phone and wallpaper examples" width="360" height="300" />
+                                <p class="overlay-portfolio">14 Stylish and User-Friendly App Design Concepts · Task
+                                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
+                                </p>
+                            </div>
+                            <div class="container-for-podpis-portfolio">
+                                <h2 class="card-title">Screen Illustrations</h2>
+                                <p class="card-description">Design</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="card-portfolio-list-item">
+                        <a class="link portfolio-link" href="#">
+                            <div class="img-plus-overlay">
+                                <img class="card-portfolio-img" src="./images/portfolio/online-cources.jpg"
+                                    alt="smiling woman with phone in hand" width="360" height="300" />
+                                <p class="overlay-portfolio">14 Stylish and User-Friendly App Design Concepts · Task
+                                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
+                                </p>
+                            </div>
+                            <div class="container-for-podpis-portfolio">
+                                <h2 class="card-title">Online Courses</h2>
+                                <p class="card-description">Marketing</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="card-portfolio-list-item">
+                        <a class="link portfolio-link" href="#">
+                            <div class="img-plus-overlay">
+                                <img class="card-portfolio-img" src="./images/portfolio/instagram-stories-concept.jpg"
+                                    alt="examples instagram stories" width="360" height="300" />
+                                <p class="overlay-portfolio">14 Stylish and User-Friendly App Design Concepts · Task
+                                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
+                                </p>
+                            </div>
+                            <div class="container-for-podpis-portfolio">
+                                <h2 class="card-title">Instagram Stories Concept</h2>
+                                <p class="card-description">Design</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="card-portfolio-list-item">
+                        <a class="link portfolio-link" href="#">
+                            <div class="img-plus-overlay">
+                                <img class="card-portfolio-img" src="./images/portfolio/organic-food.jpg"
+                                    alt="woman is holding fruit in a bag" width="360" height="300" />
+                                <p class="overlay-portfolio">14 Stylish and User-Friendly App Design Concepts · Task
+                                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
+                                </p>
+                            </div>
+                            <div class="container-for-podpis-portfolio">
+                                <h2 class="card-title">Organic Food</h2>
+                                <p class="card-description">Web Site</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="card-portfolio-list-item">
+                        <a class="link portfolio-link" href="#">
+                            <div class="img-plus-overlay">
+                                <img class="card-portfolio-img" src="./images/portfolio/fresh-coffee.jpg"
+                                    alt="cup of coffee" width="360" height="300" />
+                                <p class="overlay-portfolio">14 Stylish and User-Friendly App Design Concepts · Task
+                                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
+                                </p>
+                            </div>
+                            <div class="container-for-podpis-portfolio">
+                                <h2 class="card-title">Fresh Coffee</h2>
+                                <p class="card-description">Web Site</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
-    <footer class="section footer-bcg">
-      <div class="container">
-				<div class="address-plus-social ">
-					<div class="address-footer">
-							<a class="logo" href="index.html"><span>Web</span><span class="logo studio-white">Studio</span></a>
-							<address><p class="address">m. Warszawa, Aleje Jerozolimskie 21</p></address>
-							<a class="mail-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
-							<a class="tel-footer" href="tel:+48111111111">+48 111 111 111</a>
-					</div>
-					<div class="social-join-us-group">
-							<p class="social-join-us-text">Dołącz do nas</p>
-							<ul class="antisocial-list">
-									<li class="icon-parent" tabindex="0"><div class="icon-div icon-div-footer"><svg><use href="./images/icons.svg#icon-instagram-2" width="20" style="fill:var(--white-text)"></use></svg></div></li>
-									<li class="icon-parent" tabindex="0"><div class="icon-div icon-div-footer"><svg><use href="./images/icons.svg#icon-twitter-1" width="20" style="fill:var(--white-text)"></use></svg></div></li>
-									<li class="icon-parent" tabindex="0"><div class="icon-div icon-div-footer"><svg><use href="./images/icons.svg#icon-facebook-1" width="20" style="fill:var(--white-text)"></use></svg></div></li>
-									<li class="icon-parent" tabindex="0"><div class="icon-div icon-div-footer"><svg><use href="./images/icons.svg#icon-linkedin-1" width="20" style="fill:var(--white-text)"></use></svg></div></li>
-							</ul>
-					</div>
-				</div>
-			</div>
-  </footer>
-  </body>
-</html>
+    <!-- footer -->
+    <footer class="footer">
+        <!-- footer container -->
+        <div class="container footer-container">
+            <!-- logo and description -->
+            <div class="logo-and-description-footer">
+                <a class="logo-in-footer link" href="./index.html">Web<span class="studio-footer-span">Studio</span></a>
+                <p class="footer-description">Increase the flow of customers and sales for your business with digital
+                    marketing
+                    & growth solutions.</p>
+            </div>
+            <!-- social footer -->
+            <div class="footer-social-container">
+                <p class="footer-social-title">Social media</p>
+                <ul class="social-icons-list-footer list">
+                    <li class="social-icons-item-footer">
+                        <a class="social-list-link-footer " href="#">
+                            <svg class="social-icon-footer" aria-label="social icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-instagram">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-icons-item-footer">
+                        <a class="social-list-link-footer " href="#">
+                            <svg class="social-icon-footer" aria-label="social icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-facebook">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-icons-item-footer">
+                        <a class="social-list-link-footer " href="#">
+                            <svg class="social-icon-footer" aria-label="social icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-twitter">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-icons-item-footer">
+                        <a class="social-list-link-footer " href="#">
+                            <svg class="social-icon-footer" aria-label="social icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-linkedin">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- subscribe container -->
+            <div class="subscribe-container">
+                <p class="tittle-subscribe">Subscribe
+                </p>
+                <form class="subscribe-form">
+                    <label class="subscribe-label">
+                        <input class="subscribe-field" type="email" name="user-email-for-subscribe"
+                            placeholder="E-mail">
+                    </label>
+                    <button class="button-subscribe" type="submit">Subscribe
+                        <svg class="icon-subscribe" aria-label="subscribe icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-subscribe">
+                            </use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
 
+</html>
