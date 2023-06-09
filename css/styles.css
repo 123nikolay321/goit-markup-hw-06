@@ -82,6 +82,7 @@ body {
   margin-right: 76px;
   display: block;
 }
+
 .studio-span {
   color: var(--header-color);
 }
@@ -111,6 +112,7 @@ body {
 .active-page {
   color: #404bbf;
 }
+
 .active-page::after {
   position: absolute;
   content: '';
@@ -122,6 +124,7 @@ body {
   background: #404bbf;
   border-radius: 2px;
 }
+
 .contacts-header {
   font-style: normal;
   /*  */
@@ -229,10 +232,12 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .button-order:hover,
 .button-order:focus {
   background-color: #404bbf;
 }
+
 /* /////////////////////////////////////// */
 /* /////////////////////////////////////// */
 
@@ -319,6 +324,7 @@ body {
   text-align: center;
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
+
 .container-for-podpis {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -453,6 +459,7 @@ body {
   color: #ffffff;
   margin-bottom: 16px;
 }
+
 .social-icons-list-footer {
   display: flex;
   gap: 16px;
@@ -484,6 +491,7 @@ body {
 .subscribe-container {
   margin-left: 80px;
 }
+
 .tittle-subscribe {
   margin-bottom: 16px;
   font-weight: 500;
@@ -500,6 +508,7 @@ body {
 .subscribe-label {
   margin-right: 24px;
 }
+
 .subscribe-field {
   background-color: transparent;
   outline: transparent;
@@ -515,6 +524,7 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
 }
+
 .subscribe-field::placeholder {
   font-weight: 400;
   font-size: 12px;
@@ -544,10 +554,12 @@ body {
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .icon-subscribe {
   margin-left: 16px;
   fill: #ffffff;
 }
+
 .button-subscribe:focus,
 .button-subscribe:hover {
   background-color: #404bbf;
@@ -563,6 +575,7 @@ body {
   padding-top: 96px;
   padding-bottom: 120px;
 }
+
 .button-portfolio {
   display: block;
 
@@ -593,6 +606,7 @@ body {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
 .button-list-portfolio {
   margin-left: auto;
   margin-right: auto;
@@ -786,9 +800,11 @@ body {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .contact-form-input:focus {
   border-color: #4d5ae5;
 }
+
 .icon-input {
   fill: #2e2f42;
   position: absolute;
@@ -797,7 +813,8 @@ body {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contact-form-input:focus + .icon-input {
+
+.contact-form-input:focus+.icon-input {
   fill: #4d5ae5;
 }
 
@@ -815,15 +832,17 @@ body {
   color: rgba(46, 47, 66, 0.4);
   resize: none;
   padding: 8px 16px;
-  border: 1px solid rgba(46, 47, 66, 0.2);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .contact-form-message::placeholder {
   color: rgba(46, 47, 66, 0.4);
 }
+
 .contact-form-message:focus {
   border-color: #4d5ae5;
 }
@@ -833,6 +852,7 @@ body {
   display: flex;
   align-items: center;
 }
+
 .label-privacy-policy {
   font-size: 12px;
   line-height: 1.17;
@@ -850,12 +870,13 @@ body {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-form-checkbox-standart:checked + .label-privacy-policy > .checkbox-span {
+.contact-form-checkbox-standart:checked+.label-privacy-policy>.checkbox-span {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
+  fill:#F4F4FD;
   border-color: #404bbf;
 }
 
